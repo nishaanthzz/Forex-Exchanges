@@ -1,0 +1,45 @@
+.phoneformbody
+{
+
+    align-items: baseline;
+    text-align: center;
+}
+.Form
+{ 
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+    justify-content: center;
+}
+h4
+{   
+    padding: 10px;
+    border: solid black;
+    background-color: rgb(176, 176, 176);
+    
+
+}
+.qn{
+    color:#ff5722;
+
+}
+button
+{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+     
+}
+.ph[type=number]::-webkit-inner-spin-button, 
+.ph[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+.ph[type=number] {
+  -moz-appearance: textfield;
+}
+.WAlogo{
+    display: inline-block;
+    position: relative;
+    height: 50px;
+}
